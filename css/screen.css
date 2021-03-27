@@ -1,7 +1,7 @@
 @charset "UTF-8";
 footer .footer-columns, .contact-box, .staff, .plans { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; }
 
-html { background: #2b2b40; }
+html { background: #2A333F; }
 
 html, body { margin: 0; padding: 0; }
 
@@ -69,9 +69,9 @@ section { padding: 100px 0; }
 
 section + section { padding-top: 0; }
 
-.subtext { margin-top: 10px; text-align: center; }
+.subtext { margin-top: 20px; text-align: center; }
 
-.cta { margin: 60px 0; }
+.cta { padding: 20px 0 60px; margin: 0 auto; max-width: 320px; }
 
 .page h2 { text-align: center; }
 
@@ -201,7 +201,7 @@ blockquote:before { color: #ccc; content: open-quote; font-size: 4em; line-heigh
 
 .blog-filter.cross a:after { content: "x"; font-size: .5em; position: relative; bottom: 4px; right: -3px; }
 
-.button, input[type=submit] { color: #fff; text-decoration: none; padding: 10px 30px; background: #2A333F; border-radius: 3px; border: 1px solid rgba(255, 255, 255, 0.5); transition: .2s ease-in-out; }
+.button, input[type=submit] { color: #fff; text-decoration: none; padding: 12px 30px; background: #3f4852; border-radius: 3px; border: 1px solid rgba(255, 255, 255, 0.5); transition: .2s ease-in-out; }
 
 .button a { color: #fff; text-decoration: none; }
 
@@ -249,7 +249,7 @@ nav a.nav-toggle:hover { border: 0; }
 
 nav a:hover { border-bottom: 1px solid rgba(255, 255, 255, 0.3); color: #fff; }
 
-@media (min-width: 620px) { nav a.highlight { border: 1px #ccc solid; border-radius: 5px; } nav a.highlight:hover { background: #fff; color: #2A333F; } }
+@media (min-width: 620px) { nav a.highlight { border: 1px #ccc solid; border-radius: 5px; background: #3f4852; } nav a.highlight:hover { background: #fff; color: #2A333F; } }
 
 nav a.active { color: #fff; }
 
@@ -281,11 +281,9 @@ nav a.active { color: #fff; }
 
 .footer-links li a.rss-icon:hover svg { fill: #f26522; }
 
-footer { padding: 50px 0 50px 0; font-size: 1.1em; position: relative; background: #2b2b40; color: #fff; }
+footer { padding: 50px 0 50px 0; font-size: 1.1em; position: relative; background: #2A333F; color: #fff; }
 
-footer .copyright { font-size: .8em; margin: 0 auto; color: #fff; }
-
-@media (min-width: 450px) { footer .copyright { text-align: center; } }
+footer .copyright { font-size: .8em; margin: 0 auto; color: #fff; text-align: center; }
 
 footer, footer a { color: #999; }
 
